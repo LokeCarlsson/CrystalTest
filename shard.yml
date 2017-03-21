@@ -1,18 +1,12 @@
-name: crystal
+name: app
 version: 0.1.0
 
 authors:
   - Loke Carlsson <lc222ak@student.lnu.se>
 
-targets:
-  crystal:
-    main: src/crystal.cr
-
-crystal: 0.21.1
-
-license: MIT
-
 dependencies:
   kemal:
-    github: kemalcr/kemal
+    github: sdogruyol/kemal
     branch: master
+
+license: MIT

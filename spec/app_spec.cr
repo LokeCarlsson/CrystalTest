@@ -1,6 +1,6 @@
 require "./spec_helper"
 
-describe Crystal do
+describe App do
   # TODO: Write tests
 
   it "works" do
